@@ -1,0 +1,521 @@
+/*
+Theme Name: Wohnen Mobilität (Responsiv Child)
+Description: Das Theme für wohnen-mobilitaet.ch
+Author: Fussverkehr Schweiz
+Author URI: http://fussverkehr.ch
+Template: fussverkehr
+Version: 1.0
+Tags:
+*/
+
+
+
+#header{
+	background: #ffffff;
+	height: 125px;
+	position: relative;	
+	overflow-x: hidden;
+}
+
+.gfx{
+	/*background: #7fcb27 url(../images/header.png) no-repeat !important;*/
+	background: #FFFFFF;
+	/*background: #7fcb27 url(../images/header-bars.png) 0 0 no-repeat !important;*/
+}
+
+a.lang-selector {
+	color: #333;
+}
+
+.logo-de, .logo-fr, .logo-it, .logo-en{
+	position: absolute;
+	top: 40px;
+	left: 60px;
+	height: 80px;
+	width: 600px;
+	overflow-x: hidden;
+}
+
+
+.logo-de{
+    background: url('MIWO_Logo.svg') no-repeat left top;
+    max-height: 100%;
+    max-width: 100%;	
+    overflow-x: hidden;
+}
+
+.logo-fr{
+    background: url('fr-logo.svg') no-repeat left top;
+    max-height: 100%;
+    max-width: 100%;	
+    overflow-x: hidden;
+}
+
+
+#footer  #address-right {
+	float: left;
+	margin-left: ;
+	width: 175px;
+}
+
+#footer  #address-left {
+	float: left;
+	width: 542px;
+}
+
+
+#home-footer #footer  #address-left {
+	float: left;
+	width: 500px;
+}
+
+
+
+
+#footer .textwidget {
+    position: absolute;
+    left: 230px;
+    top: 15px
+}
+
+
+
+
+#top-container{
+	/*background: url(home-wohnen.png) no-repeat;*/
+	height: 260px;
+	padding-bottom: 1px;
+	overflow-x: hidden;
+}
+
+#news {
+width: 650px;
+margin-left: 20px;
+min-height: 280px;
+}
+
+#news a{color:#555;text-decoration:noneborder-top-style: solid;
+border-top-width: 1px;
+border-top-color: #ebe9eb;
+}#news p{margin:6px 0 0.5px}
+
+#news .news-item a img.alignleft {
+	margin: 0;
+	width: 150px;
+	max-height: 212px;
+	padding: 0px;
+	
+}.news-item:hover h2{text-decoration:underline;background-color: rgba(127, 203, 39, 0.65)!important;}
+
+	
+#news .news-item{margin:0 10px 15px 0px;float: left;width: 150px;height: 212px;border: 1px solid rgba(155, 154, 154, 0.65);position: relative;padding: 0px;
+}
+a.more_news {
+	width: 136px;
+	padding: 7px;
+	color: #555;
+	font-weight: 700;
+	border-radius: 3px;
+	background-color: #ebe9eb;
+	border: 1px solid #ebe9eb;
+	line-height: 1;
+	display: inline-block;
+}
+
+a.more_news:hover {
+	background-color: #7fcb27;
+	border: 1px inset #555;
+	text-decoration: underline !important;
+}
+
+#news h2{font-size: 13px;
+margin: 0;
+padding: 5px;
+position: absolute;
+bottom: 0px;
+width: 140px;
+min-height: 52px;
+background-color: rgba(255, 255, 255, 0.65);
+border-top: 1px solid #ebe9eb;
+}
+
+
+.news-image {
+	float: left;
+}
+#main-container{
+	/*
+	border-top: #7fcb27 10px solid;
+	*/
+	overflow-x: hidden;
+}
+
+#sub-nav ul li.current_page_item >a{
+	border-right: 8px solid #7fcb27;
+}
+
+#sub-nav li ul li.current-post-ancestor a, #sub-nav li ul li.current-menu-item > a,
+#sub-nav.shop li ul li.menu-item-3944 a {
+    border-right: 8px solid #7fcb27 !important;
+}
+
+#sub-nav ul li.current-menu-parent >a{
+	border-right: 8px solid #AAAAAA;
+}
+
+ 
+#content h1{
+	border-bottom:1px solid #7fcb27;
+	border-left:20px solid #7fcb27;
+}
+
+#border{
+	float: left;
+	width: 175px;
+	margin-top: 190px;
+	padding-top: 31px;
+	padding-left: 5px;
+	border-top: #7fcb27 10px solid;	
+}
+
+#border:empty,
+#border:blank,
+#border:-moz-only-whitespace{
+	display: none;
+	border-top-width: 0;
+	border-top-style: none;
+}
+
+a:empty,
+a:blank,
+a:-moz-only-whitespace{
+	display: none;
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.home-template #border a {
+    color: #7fcb27;
+    display: inline;
+}
+
+#border a, #bottom-container #border a{
+color: #7fcb27;
+}
+
+
+#footer a.mail {
+	color:#9de945 !important;
+}
+hr.gelb {
+	color:#7fcb27;
+	background-color:#7fcb27;
+	border-color:#7fcb27;
+}
+ul.browsebox li a {
+	color:#7fcb27;
+}
+a{
+	text-decoration: none;
+	color: #7fcb27;
+}
+
+#content ul {
+	list-style-image: url('images/miwo-icon.svg');
+	
+}
+
+body,p,#content ul,#border p {
+	font-family: arial, verdana, sans-serif;
+	color: #555555;
+	font-size: 12px;
+}
+
+.csc-textpic-intext-left, .csc-textpic-intext-right {
+	clear: both;
+	display: table;
+}
+
+
+.csc-textpic-intext-left img{
+	float: left;
+	margin-bottom: 1em;
+	display: table-cell;
+}
+
+img.alignleft {
+	float: left;
+	margin: 0 5px 15px 0;
+}
+
+.csc-textpic-intext-left p{
+	margin-left: 15%;
+	display: table-cell;
+}
+
+.csc-textpic-intext-right img {
+float: right;
+margin-bottom: 1em;
+margin-left: 1em;
+display: table-cell;
+}
+
+.nav-trigger{
+	display: none;
+}
+
+@media (max-width: 965px) { 
+    #wrapper, #service-nav{
+    	width: 760px;
+    	overflow-x: hidden;
+    }
+    #main-nav ul {
+        list-style-type: none;
+        margin-left: 50px;
+    }
+    #content{
+    	float: right;
+    	clear: right;
+    	margin-left: 0;
+    	
+    }
+    
+    #border, #border.level-3 {
+        float: left;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    #bottom-container #border{
+   margin-right: 0px;
+   right: 0;}
+    
+    #footer .textwidget {
+        position: absolute;
+        left: 20px;
+        top: 15px
+    }
+    
+    #home-footer #footer #address-left{
+    	width: 525px;
+    }	
+    
+    #border .widget_wpcom_social_media_icons_widget{
+    	float: left;
+    	margin-top: 1em;
+    }
+    #sub-nav{
+    	min-height: 170px;
+    }
+	
+	#news {
+		width: 500px;
+	}
+	
+	#news .news-item:nth-of-type(4) {
+		display: none;
+	}
+    
+}	
+@media (max-width: 762px){
+
+#wrapper, #service-nav, #sub-nav{
+	width: 500px;
+	min-height: 0;
+}
+
+#border, #content, #sub-nav{
+	margin: 0;
+}
+
+#sub-nav, #main-container{
+	padding-top: 0;
+	padding-left: 0;
+}
+
+#main-nav {
+    display: none;
+}
+
+#sub-nav ul{
+	padding: 0;
+}
+
+#sub-nav ul li a{
+	color:#555;display:block;line-height:21px;padding-left: 15px;
+	
+}
+#sub-nav ul li{list-style-type:none;border-top:#999 1px dotted; padding-left: 0; 
+}
+
+#sub-nav ul ul li {
+	display: none;
+}
+
+#sub-nav ul ul li.current-menu-item, #sub-nav ul ul li.current-menu-parent, #sub-nav ul ul li.current-menu-item ul li, #sub-nav ul ul li.current-menu-parent ul li, #sub-nav ul li.current-menu-item ul li, #sub-nav ul li.current-menu-parent ul li{
+	display: block;
+}
+
+#sub-nav ul ul li a{
+	padding-left: 30px;
+}
+
+#sub-nav{
+	display: none;
+	padding-left: 0;
+	background-color: white;
+}
+
+span.news-list-date{
+	margin-right: 5px;
+}
+
+#content .csc-textpic-above{
+	margin-left: 0;
+}
+#news{
+	width: 496px;
+	margin-left: 0;
+}
+#bottom-container #border{
+	left: 0;
+	bottom: auto;
+	width: 94%;
+	border: 0;
+	margin-right: 0px;
+	position: static;
+	text-align: left;
+	
+}
+
+.csc-textpic-intext-left{
+	margin-left: 10px !important;
+}
+.home #footer  #address-left, #footer  #address-left{
+	width: 300px;
+}
+
+.csc-textpic-above, .csc-default img {
+padding-left: 5px;
+}
+
+#bottom-container{
+	
+	position: static;
+}
+
+#border, #border.level-3{
+text-align: center;
+width: 480px;
+margin-left: 0px;
+float: right;
+margin-right: -5px;
+	padding-top: 0;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
+#border .widget_wpcom_social_media_icons_widget{
+	padding-left: 75px;
+}
+
+.home #footer{
+	width: 500px;
+	margin-top: 33%;
+}
+
+.nav-trigger[type=checkbox] {
+position: absolute;
+  top: -9999px;
+  left: -9999px;}
+
+.nav-trigger{
+position: sticky;
+position: -webkit-sticky;
+top: 0px;
+
+display: block;
+	line-height:27px;color:#fff;text-shadow:#000 1px 1px 1px;font-size:16px;
+	  cursor: pointer;
+	  height: 27px;
+	  text-align: center;
+	      border-bottom: 2px solid #747474;
+	      border-top: 1px solid #fff;
+	      background: url(images/main-nav-bg-2.png) repeat-x #9a9a9a;
+}
+
+
+
+.nav-trigger[type=checkbox]:checked ~ #main-container #sub-nav, .nav-trigger[type=checkbox]:checked ~ #top-container #sub-nav{
+
+	display: block;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 27px;
+	background-color: white;
+}
+
+
+
+.news-list-container{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#content p, #content h1, #content h2, #content h3, #content h4, #content ul {
+	padding-right: 5px;
+	padding-left: 15px;
+}
+
+#home-footer #footer {
+		margin-top: 40%;
+	}
+	
+	#news{
+		width: 496px;
+		padding: 10px;
+	}
+}
+
+@media (max-width: 500px){
+body{
+	overflow-x: hidden;
+		font-size: 14px
+	
+}
+
+#service-nav{
+	font-size: 12px;
+}
+	#wrapper, #service-nav{
+		transform: scale(0.8);
+		  transform-origin: 0 0;
+		  
+		
+	}
+	
+
+}
+
+@media (max-width: 400px){
+		body{
+			overflow-x: hidden;
+		font-size: 15px}
+		#service-nav{
+			font-size: 12px;
+		}
+
+	#wrapper, #service-nav{
+		transform: scale(0.7);
+		  transform-origin:  0 0 ;
+	}
+}
+
+@media (max-width: 350px){
+	#wrapper, #service-nav{
+		transform: scale(0.65);
+		  transform-origin: 0 0;
+		  overflow-x: hidden;
+		
+	}
+}
+
