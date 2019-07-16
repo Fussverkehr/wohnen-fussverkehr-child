@@ -1,3 +1,6 @@
+/* @override 
+	https://wohnen-mobilitaet.ch/wordpress/wp-content/themes/wohnen-fussverkehr-child/style.css?* */
+
 /*
 Theme Name: Wohnen Mobilität (Responsiv Child)
 Description: Das Theme für wohnen-mobilitaet.ch
@@ -265,6 +268,61 @@ display: table-cell;
 
 .nav-trigger{
 	display: none;
+}
+
+#bottom-container #border .event_item {
+	color: white;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+ .event_item a{
+	font-size: 1.1em;
+	margin-bottom: 5px;
+	text-shadow: 0 0 1px;
+}
+#bottom-container #border .event_item h5{
+margin-bottom: 8px;
+margin-top: 5px;
+}
+
+#bottom-container #border .event_date div {
+	float: left;
+	width: 70%;
+	line-height: 1.2;
+	
+}
+
+.event_single, .event_single .time {
+		line-height: 1.3;
+	font-size: 1.2em;
+}
+
+#bottom-container #border .event_location {
+	margin-top: 5px;
+}
+
+
+
+.event_item {
+	font-size: 1.1em;
+}
+
+.linking_word, a.gcal, a.vcs, span.event_category {
+	display: none;
+}
+
+.time-start::before {
+	content: ": ";
+}
+
+.time-end::before {
+	content: "-";
+}
+
+
+i.dashicons-calendar {
+	float: right;
 }
 
 @media (max-width: 965px) { 
