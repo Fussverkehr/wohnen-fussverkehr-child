@@ -526,7 +526,7 @@ display: block;
 	padding-left: 15px;
 }
 
-#content blockquote h3 {
+blockquote h3 {
 	clear: both;
 }
 
