@@ -526,6 +526,10 @@ display: block;
 	padding-left: 15px;
 }
 
+#content blockquote h3 {
+	clear: both;
+}
+
 #home-footer #footer {
 		margin-top: 40%;
 	}
